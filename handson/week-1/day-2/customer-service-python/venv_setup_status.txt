@@ -1,0 +1,3 @@
+Virtual environment created: YES
+Third-party packages required: NONE
+Application import test: PASSED

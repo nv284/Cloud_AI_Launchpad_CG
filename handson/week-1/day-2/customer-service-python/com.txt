@@ -1,0 +1,32 @@
+1- kubectl get service customer-service
+
+Then inspect the Service configuration:
+-- kubectl describe service customer-service
+
+Check the Deployment:
+--- kubectl get deployment customer-service
+
+Check the Pods::
+--- kubectl get pods
+
+And verify the endpoints:
+---kubectl get endpoints customer-service
+
+After correcting the YAML, they could apply it with:
+--- kubectl apply -f k8s/customer-service-service.yaml
+
+Then verify again:
+--- kubectl describe service customer-service
+--- kubectl get endpoints customer-service
+
+
+==============================================
+for this assessment :
+
+Real Kubernetes environment
+        ↓
+Engineer opens PowerShell / CMD / VS Code Terminal
+        ↓
+kubectl get service customer-service
+        ↓
+Kubernetes returns Service information
