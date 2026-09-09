@@ -1,0 +1,6 @@
+1- rmdir /s /q local_qdrant_db
+   To do a complete database factory reset, delete that folder in PowerShell
+---  python setupdb.py
+2- python -m pip install qdrant-client fastembed
+
+3- python -m pip install fastapi uvicorn streamlit

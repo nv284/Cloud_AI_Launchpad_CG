@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: customer-service
+
+spec:
+  replicas: 2
+
+  selector:
+    matchLabels:
+      app: customer-service
+
+  template:
+    metadata:
+      labels:
+        app: customer-service
+
+    spec:
+      containers:
+        - name: customer-service
+          image: customer-service:1.0
+
+          ports:
+            - containerPort: 8080
+
+          env:
+            - name: APP_PORT
+              value: "8080"
+
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "128Mi"
+            limits:
+              cpu: "500m"
+              memory: "512Mi"
