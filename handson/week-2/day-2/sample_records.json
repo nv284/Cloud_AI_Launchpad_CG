@@ -1,0 +1,127 @@
+[
+  {
+    "customer_id": "CUST-1001",
+    "income": 42000,
+    "transactions": 18
+  },
+  {
+    "customer_id": "CUST-1002",
+    "income": 68500,
+    "transactions": 42
+  },
+  {
+    "customer_id": "CUST-1003",
+    "income": 31500,
+    "transactions": 9
+  },
+  {
+    "customer_id": "CUST-1004",
+    "income": 92750,
+    "transactions": 67
+  },
+  {
+    "customer_id": "CUST-1005",
+    "income": 54800,
+    "transactions": 31
+  },
+  {
+    "customer_id": "CUST-1006",
+    "income": 76200,
+    "transactions": 54
+  },
+  {
+    "customer_id": "CUST-1007",
+    "income": 38900,
+    "transactions": 14
+  },
+  {
+    "customer_id": "CUST-1008",
+    "income": 112000,
+    "transactions": 83
+  },
+  {
+    "customer_id": "CUST-1009",
+    "income": 46750,
+    "transactions": 26
+  },
+  {
+    "customer_id": "CUST-1010",
+    "income": 59300,
+    "transactions": 37
+  },
+  {
+    "customer_id": "CUST-1011",
+    "income": 27800,
+    "transactions": 6
+  },
+  {
+    "customer_id": "CUST-1012",
+    "income": 83500,
+    "transactions": 61
+  },
+  {
+    "customer_id": "CUST-1013",
+    "income": 104500,
+    "transactions": 72
+  },
+  {
+    "customer_id": "CUST-1014",
+    "income": 35600,
+    "transactions": 11
+  },
+  {
+    "customer_id": "CUST-1015",
+    "income": 64100,
+    "transactions": 45
+  },
+  {
+    "customer_id": "CUST-1016",
+    "income": 49700,
+    "transactions": 29
+  },
+  {
+    "customer_id": "CUST-1017",
+    "income": 128000,
+    "transactions": 96
+  },
+  {
+    "customer_id": "CUST-1018",
+    "income": 33200,
+    "transactions": 8
+  },
+  {
+    "customer_id": "CUST-1019",
+    "income": 71500,
+    "transactions": 52
+  },
+  {
+    "customer_id": "CUST-1020",
+    "income": 88400,
+    "transactions": 64
+  },
+  {
+    "customer_id": "CUST-1021",
+    "income": 45200,
+    "transactions": 22
+  },
+  {
+    "customer_id": "CUST-1022",
+    "income": 57750,
+    "transactions": 35
+  },
+  {
+    "customer_id": "CUST-1023",
+    "income": 36900,
+    "transactions": 13
+  },
+  {
+    "customer_id": "CUST-1024",
+    "income": 96500,
+    "transactions": 78
+  },
+  {
+    "customer_id": "CUST-1025",
+    "income": 52300,
+    "transactions": 33
+  }
+]

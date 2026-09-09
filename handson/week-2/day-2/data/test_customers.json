@@ -1,0 +1,83 @@
+[
+  {
+    "test_case": "Valid customer",
+    "customer_id": 101,
+    "income": 75000,
+    "transactions": 120
+  },
+  {
+    "test_case": "Missing customer_id",
+    "income": 62000,
+    "transactions": 85
+  },
+  {
+    "test_case": "Missing income",
+    "customer_id": 103,
+    "transactions": 64
+  },
+  {
+    "test_case": "Missing transactions",
+    "customer_id": 104,
+    "income": 58000
+  },
+  {
+    "test_case": "Negative income",
+    "customer_id": 105,
+    "income": -45000,
+    "transactions": 40
+  },
+  {
+    "test_case": "Negative transactions",
+    "customer_id": 106,
+    "income": 68000,
+    "transactions": -12
+  },
+  {
+    "test_case": "Invalid customer_id type",
+    "customer_id": "CUST-107",
+    "income": 72000,
+    "transactions": 95
+  },
+  {
+    "test_case": "Invalid income type",
+    "customer_id": 108,
+    "income": "seventy-five-thousand",
+    "transactions": 110
+  },
+  {
+    "test_case": "Invalid transactions type",
+    "customer_id": 109,
+    "income": 64000,
+    "transactions": "one hundred"
+  },
+  {
+    "test_case": "Zero income",
+    "customer_id": 110,
+    "income": 0,
+    "transactions": 25
+  },
+  {
+    "test_case": "Zero transactions",
+    "customer_id": 111,
+    "income": 52000,
+    "transactions": 0
+  },
+  {
+    "test_case": "Very high income",
+    "customer_id": 112,
+    "income": 10000000,
+    "transactions": 240
+  },
+  {
+    "test_case": "Very high transaction count",
+    "customer_id": 113,
+    "income": 88000,
+    "transactions": 1000000
+  },
+  {
+    "test_case": "Duplicate customer_id",
+    "customer_id": 101,
+    "income": 91000,
+    "transactions": 145
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "customer_id": 201,
+    "income": 54000,
+    "transactions": 38
+  },
+  {
+    "customer_id": 202,
+    "income": 78500,
+    "transactions": 76
+  },
+  {
+    "customer_id": 203,
+    "income": 112000,
+    "transactions": 124
+  },
+  {
+    "customer_id": 204,
+    "income": 46500,
+    "transactions": 21
+  },
+  {
+    "customer_id": 205,
+    "income": 92000,
+    "transactions": 95
+  }
+]
